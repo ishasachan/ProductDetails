@@ -1,0 +1,50 @@
+
+
+.ProductPreview{
+  width: 100%;
+  position: relative;
+}
+
+.ProductPreview>img{
+width: 100%;
+}
+
+.Date{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.Heart{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+.Heart>p {
+  margin-top: 16px;
+}
+
+.Heart >i{
+  color: red;
+  animation: beat 1s infinite;
+}
+@keyframes beat {
+  0%{
+    transform: scale(1,1);
+  }
+  50%{
+    transform: scale(1.2,1.2);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+  
+} 

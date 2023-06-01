@@ -1,0 +1,138 @@
+.body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+
+}.topbar{
+  background-color: rgb(109, 109, 109);
+  padding :24px 48px 12px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.topbar >img {
+  width: 100px;
+ 
+}
+
+.Maincontainer{
+  padding :4% 12%;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.ProductPreview{
+  width: 50%;
+  position: relative;
+}
+
+.ProductPreview>img{
+width: 100%;
+}
+
+.Productdata{
+  width: 50%;
+}
+.ProductTitle{
+  font-size: 48px;
+  font-weight: 20px;
+  margin-top:0 ;
+  margin-bottom: 16px;
+}
+.productDescription{
+  font-size: 20px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 16px;
+
+
+}
+.ProductImage{
+  width: 100%;
+  max-width: 80px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.SelectedProductImage{
+  border: 2px solid teal;
+}
+.sectionheading{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.button{
+  border-color: gainsboro;
+  border-radius: 8px;
+  border: 0;
+  text-align: center;
+  min-width: 80px;
+  padding: 12px 24px;
+  margin-right: 12px;
+  font-weight: 12px;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+.selected.button{
+  color: white;
+  background-color: grey;
+}
+.buynow{
+  color: white;
+  background-color: teal;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+
+  margin-top: 36px;
+}
+.Date{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.Heart{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+.Heart>p {
+  margin-top: 16px;
+}
+
+.Heart >i{
+  color: red;
+  animation: beat 1s infinite;
+}
+@keyframes beat {
+  0%{
+    transform: scale(1,1);
+  }
+  50%{
+    transform: scale(1.2,1.2);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+  
+} 
+
+  
+
+  
+  
